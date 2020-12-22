@@ -3,7 +3,7 @@ just simple events for javascript
 ## Example
 ```js
 var playerJoined = new Event()
-var conn = playerJoined.connect((playerName)=>{
+var connection = playerJoined.connect(function(playerName){
     console.log(`${playerName} has joined to Game!`)
 })
 ```
@@ -11,6 +11,6 @@ var conn = playerJoined.connect((playerName)=>{
 ```js
 playerJoined.fire("Monotter")
 playerJoined.fire("Monotter")
-conn.disconnect()
+connection.disconnect()
 playerJoined.fire("Monotter")
 ```
