@@ -1,11 +1,14 @@
-## EventJS
+# EventJS
 just simple events for javascript
-# Example
+## Example
 ```js
 var playerJoined = new Event()
 var conn = playerJoined.connect((playerName)=>{
     console.log(`${playerName} has joined to Game!`)
 })
+```
+
+```js
 playerJoined.fire("Monotter")
 playerJoined.fire("Monotter")
 conn.disconnect()
