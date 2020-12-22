@@ -8,9 +8,13 @@ var connection = playerJoined.connect(function(playerName){
 })
 ```
 
+
+
 ```js
 playerJoined.fire("Monotter")
-playerJoined.fire("Monotter")
+playerJoined.fire("asdfasd")
 connection.disconnect()
-playerJoined.fire("Monotter")
+playerJoined.fire("fgdssdfg")
 ```
+> Monotter
+> asdfasd
