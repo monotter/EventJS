@@ -16,6 +16,6 @@ playerJoined.fire("asdfasd")
 connection.disconnect()
 playerJoined.fire("fgdssdfg")
 ```
-> Monotter
+> Monotter has joined to Game!
 
-> asdfasd
+> asdfasd has joined to Game!
